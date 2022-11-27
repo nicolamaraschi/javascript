@@ -1,0 +1,82 @@
+const arr=[7,8,9];
+const= badNewArr[1,2,arr[0],arr[1],arr[2]];
+console.log(badNewArr);
+
+const newArr=[1,2,...arr];
+console.log[newArr];
+console.log(...newArr);
+
+const newMenu=[...restaurant,mainMenu.'Gnocchi'];
+console.log(newMenu);
+
+// copy array
+const mainMenuCopy= [...restaurant.startMenu,...retaurant.mainMenu,restaurant.mainMenu];
+// join 2 arrays
+const menu = [...restaurant.startMenu,... restaurant.mainMenu];
+console.log(letter);
+// iterable
+const str='jonas';
+const letters=[...str,' ','S.'];
+console.log(letters);
+console.log(...str);
+
+
+// object
+mainMenu['pizza','pasta','risotto'];
+openingHours:{
+  thu:{
+  open:12,
+  close:22,
+  },
+  fri:{
+  open:15,
+  close:20,
+  },
+  sat:{
+  open:0,
+  close:24,
+  },
+},
+
+// map
+const rest= new Map();
+rest.set('name','classico italiano');
+rest.set(1,'Firenze, Italy');
+console.log(rest.set(2, 'lisbon, portugal'));
+
+rest
+  .set('categories', ['italian', 'pizzeria', 'vegetarian','organic']).set('open',11)
+  .set('open',11)
+  .set('close',23);
+  .set(true,'we are open :D')
+  .set(false)
+ {
+   "count":3,
+   "recipes":[
+   {
+     "publisher":" 101 coolbook",
+     "title": "best pizza",
+     "source_url":"http://www.101cookbooks/images",
+     "recipe_id": "46546",
+     "social_rank":100,
+     "publisher_url":"http://thepioner.com"
+   },
+   {
+     "publisher": "The Pioneer Woman",
+      "title": "Deep Dish Fruit Pizza",
+      "source_url": "http://thepioneerwoman.com/cooking
+      "recipe_id": "46956",
+      "image_url": "http://forkify-api.herokuapp.com/im
+      "social_rank": 100,
+      "publisher_ur1" "http://thepioneerwoman.com"
+   }
+   ]
+ }
+
+//sets
+tanks = new Set(['code','eat','code']);
+//maps
+
+task= new Map([
+  ['task','code'],['date','todey'],[false,'strat coding']
+]);
