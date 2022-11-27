@@ -1,0 +1,19 @@
+function logger(){
+console.log('my name is jones');
+}
+
+logger();
+
+funtion fruitProcessor(apples,oranges){
+console.log(apples,oranges);
+const juice='juice with ${apples} apples and ${orange} oranges.';
+return juice;
+}
+
+const appleJuicefruit=Processor(5,0);
+console.log(appleJuice);
+console.log(fruitProcessor(5.0));
+
+
+const appleOrangeJuice= fruitProcessor(2,4);
+console.log(appleOrangesJuice);
