@@ -1,0 +1,31 @@
+const p= document.querySelector('.p');
+p.textContent='my name is jones';
+alert('text set!');
+p.style.color='red';
+
+
+const p= document.quertSelector('.p');
+setTimeout(function (){
+  p.textContent = 'my names is Jonas!';
+},5000);
+p.style.color='red';
+)
+
+const img= document.querySelector('.dog');
+img.src='dog.jpg';
+img.addEventListener('Load',function(){
+  img.classList.add('fadeIn');
+});
+p.style.witdh='300px';
+
+const request= new XMLhttpRequest();
+request.open('GET','https://restcountries.eu/rest/v2/name/portugal');
+request.send();
+console.log();
+
+request.addEventListener('load',function(){
+console.log(this.respondeText);
+const data= JSON.parse(this.responseText);
+console.log();
+}
+)
